@@ -11,17 +11,20 @@
     />
 
     <title>Promodise - seo and digital агентство</title>
-    <!-- bootstrap.min css -->
+    <!-- bootstrap.min css
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css" />
-    <!-- Icofont Css -->
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+     Icofont Css -->
+    <!-- <link rel="stylesheet" href="plugins/fontawesome/css/all.css" /> -->
     <!-- animate.css -->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <!-- <link rel="stylesheet" href="plugins/animate-css/animate.css" /> -->
     <!-- Icofont -->
-    <link rel="stylesheet" href="plugins/icofont/icofont.css" />
+    <!-- <link rel="stylesheet" href="plugins/icofont/icofont.css" /> -->
 
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
+    <!--<link rel="stylesheet" href="css/style.css" /> -->
+
+    <?php wp_head() ?>
+
   </head>
 
   <body data-spy="scroll" data-target=".fixed-top">
@@ -691,22 +694,25 @@
     =====================================-->
 
     <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- <script src="plugins/jquery/jquery.min.js"></script> -->
     <!-- Bootstrap 4.3.1 -->
-    <script src="plugins/bootstrap/js/popper.min.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="plugins/bootstrap/js/popper.min.js"></script> -->
+    <!-- <script src="plugins/bootstrap/js/bootstrap.min.js"></script> -->
     <!-- Woow animtaion -->
-    <script src="plugins/counterup/wow.min.js"></script>
-    <script src="plugins/counterup/jquery.easing.1.3.js"></script>
+    <!-- <script src="plugins/counterup/wow.min.js"></script> -->
+    <!-- <script src="plugins/counterup/jquery.easing.1.3.js"></script> -->
     <!-- Counterup -->
-    <script src="plugins/counterup/jquery.waypoints.js"></script>
-    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- <script src="plugins/counterup/jquery.waypoints.js"></script> -->
+    <!-- <script src="plugins/counterup/jquery.counterup.min.js"></script> -->
 
     <!-- Google Map -->
-    <script src="plugins/google-map/gmap3.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+    <!-- <script src="plugins/google-map/gmap3.min.js"></script> -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> -->
     <!-- Contact Form -->
-    <script src="plugins/jquery/contact.js"></script>
-    <script src="js/custom.js"></script>
+    <!-- <script src="plugins/jquery/contact.js"></script> -->
+    <!-- <script src="js/custom.js"></script> -->
+
+    <?php wp_footer() ?>
+
   </body>
 </html>
